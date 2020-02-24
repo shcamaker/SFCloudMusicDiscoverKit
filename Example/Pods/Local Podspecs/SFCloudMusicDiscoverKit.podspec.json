@@ -1,0 +1,36 @@
+{
+  "name": "SFCloudMusicDiscoverKit",
+  "version": "0.2.0",
+  "summary": "SFCloudMusicDiscoverKit.",
+  "description": "A short description of SFCloudMusicDiscoverKit.",
+  "homepage": "https://github.com/shcamaker/SFCloudMusicDiscoverKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shcamaker": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFCloudMusicDiscoverKit.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFCloudMusicDiscoverKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 5"
+    ],
+    "RxCocoa": [
+      "~> 5"
+    ],
+    "Action": [
+
+    ],
+    "SFCloudMusicFunctionKit": [
+
+    ]
+  }
+}
