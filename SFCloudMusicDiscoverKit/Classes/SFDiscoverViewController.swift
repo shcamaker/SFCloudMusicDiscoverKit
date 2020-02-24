@@ -25,7 +25,8 @@ class SFDiscoverViewController: UIViewController, BindableType {
 //        tableView.estimatedRowHeight = 100
         tableView.register(SFDiscoverCycleScrollCell.self, forCellReuseIdentifier: String(describing: SFDiscoverCycleScrollCell.self))
         if #available(iOS 9.0, *) {
-            tableView.register(UINib(nibName: String(describing: SFDiscoverServicesCell.self), bundle: nil), forCellReuseIdentifier: String(describing: SFDiscoverServicesCell.self))
+            let bundle = Bundle(for: SFDiscoverViewController.self)
+            tableView.register(UINib(nibName: String(describing: SFDiscoverServicesCell.self), bundle: bundle), forCellReuseIdentifier: String(describing: SFDiscoverServicesCell.self))
         } else {
             // Fallback on earlier versions
         }
