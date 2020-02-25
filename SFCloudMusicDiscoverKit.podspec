@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicDiscoverKit'
-  s.version          = '0.2.3'
+  s.version          = '0.2.6'
   s.summary          = 'SFCloudMusicDiscoverKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ A short description of SFCloudMusicDiscoverKit.
 
   s.source_files = 'SFCloudMusicDiscoverKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SFCloudMusicDiscoverKit' => ['SFCloudMusicDiscoverKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SFCloudMusicDiscoverKit' => ['SFCloudMusicDiscoverKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

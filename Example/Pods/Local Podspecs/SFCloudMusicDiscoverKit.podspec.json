@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicDiscoverKit",
-  "version": "0.2.2",
+  "version": "0.2.5",
   "summary": "SFCloudMusicDiscoverKit.",
   "description": "A short description of SFCloudMusicDiscoverKit.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicDiscoverKit",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicDiscoverKit.git",
-    "tag": "0.2.2"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "SFCloudMusicDiscoverKit/Classes/**/*",
+  "resource_bundles": {
+    "SFCloudMusicDiscoverKit": [
+      "SFCloudMusicDiscoverKit/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "RxSwift": [
       "~> 5"
