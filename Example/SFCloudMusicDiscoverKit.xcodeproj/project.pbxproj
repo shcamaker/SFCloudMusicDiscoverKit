@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		BEA2259AD4D81E2FE80E0DD3 /* Pods_SFCloudMusicDiscoverKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F67190F3E7D7093C68F04 /* Pods_SFCloudMusicDiscoverKit_Example.framework */; };
+		C308D50C2404A51800C318D5 /* CTMediator+Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308D50B2404A51800C318D5 /* CTMediator+Discover.swift */; };
 		DC35EE9189CB657871F223E7 /* Pods_SFCloudMusicDiscoverKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD139AA5E90DF891F5A6527 /* Pods_SFCloudMusicDiscoverKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		A21C19B415FB7FEF2FB523C5 /* Pods-SFCloudMusicDiscoverKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicDiscoverKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicDiscoverKit_Tests/Pods-SFCloudMusicDiscoverKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ACE16CE72820AB8F6E363DA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B81331044C56C148114A02CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C308D50B2404A51800C318D5 /* CTMediator+Discover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTMediator+Discover.swift"; sourceTree = "<group>"; };
 		D32572852261D2706EA73F0A /* Pods-SFCloudMusicDiscoverKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicDiscoverKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicDiscoverKit_Example/Pods-SFCloudMusicDiscoverKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C308D50B2404A51800C318D5 /* CTMediator+Discover.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -294,6 +297,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SFCloudMusicDiscoverKit_Example/Pods-SFCloudMusicDiscoverKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -303,6 +307,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -343,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C308D50C2404A51800C318D5 /* CTMediator+Discover.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

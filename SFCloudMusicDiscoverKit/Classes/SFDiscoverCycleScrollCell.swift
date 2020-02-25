@@ -18,24 +18,13 @@ class SFDiscoverCycleScrollCell: SFBaseTableViewCell {
         cycleView.translatesAutoresizingMaskIntoConstraints = false
         if #available(iOS 9.0, *) {
             cycleView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
-        } else {
-            // Fallback on earlier versions
-        }
-        if #available(iOS 9.0, *) {
             cycleView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
-        } else {
-            // Fallback on earlier versions
-        }
-        if #available(iOS 9.0, *) {
             cycleView.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
-        } else {
-            // Fallback on earlier versions
-        }
-        if #available(iOS 9.0, *) {
             cycleView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
         } else {
             // Fallback on earlier versions
         }
+       
     }
     
     override func bindViewModel() {

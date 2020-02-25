@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicDiscoverKit",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "summary": "SFCloudMusicDiscoverKit.",
   "description": "A short description of SFCloudMusicDiscoverKit.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicDiscoverKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicDiscoverKit.git",
-    "tag": "0.2.0"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"

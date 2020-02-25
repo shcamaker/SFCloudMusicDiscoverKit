@@ -2,13 +2,14 @@ PODS:
   - Action (4.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
+  - CTMediator (25)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
-  - SFCloudMusicDiscoverKit (0.2.0):
+  - SFCloudMusicDiscoverKit (0.2.2):
     - Action
     - RxCocoa (~> 5)
     - RxSwift (~> 5)
@@ -16,9 +17,12 @@ PODS:
   - SFCloudMusicFunctionKit (0.5.0)
 
 DEPENDENCIES:
+  - CTMediator
   - SFCloudMusicDiscoverKit (from `../`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
   https://github.com/shcamaker/SFCloudMusicBaseKitSpec.git:
     - SFCloudMusicFunctionKit
   trunk:
@@ -33,12 +37,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  SFCloudMusicDiscoverKit: fc7e079d053afc1df5375943c5047574b07cccb8
+  SFCloudMusicDiscoverKit: 51c8299e19ac7b9cc48744174ef2506d263fd9d1
   SFCloudMusicFunctionKit: 4c5e63c03eb7d04773c60a88a324031e6cf7a950
 
-PODFILE CHECKSUM: c14d4db69dc052dd91ec9d053b7fa9ac47772c9e
+PODFILE CHECKSUM: 6e9324d1640062f336ff1a7e7547bbc58b6b7921
 
 COCOAPODS: 1.8.3

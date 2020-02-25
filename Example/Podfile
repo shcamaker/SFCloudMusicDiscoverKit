@@ -1,10 +1,11 @@
 source 'https://github.com/shcamaker/SFCloudMusicBaseKitSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
 target 'SFCloudMusicDiscoverKit_Example' do
   pod 'SFCloudMusicDiscoverKit', :path => '../'
-
+pod 'CTMediator'
   target 'SFCloudMusicDiscoverKit_Tests' do
     inherit! :search_paths
 
